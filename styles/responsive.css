@@ -1,0 +1,25 @@
+/* small devices | mobile */
+@media screen and (max-width: 576px) {
+  .navbar,
+  .menu-container,
+  .menu {
+    flex-direction: column;
+  }
+  .navbar,
+  .menu-container {
+    gap: 62px;
+  }
+}
+
+/* medium devices | table */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .navbar,
+  .menu-container,
+  .menu {
+    flex-direction: column;
+  }
+  .navbar,
+  .menu-container {
+    gap: 62px;
+  }
+}
