@@ -79,20 +79,41 @@ nav {
 }
 
 .social-media i {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .social-media .youtube {
-    color: #f61c0d;
+  color: #f61c0d;
 }
 
 .social-media .tiktok {
-    color: #000;
+  color: #000;
 }
 
 .social-media > span {
-    font-size: 1.125rem;
-    color: #3c354f;
-    font-weight: 500;
+  font-size: 1.125rem;
+  color: #3c354f;
+  font-weight: 500;
 }
 
+/* banner section */
+.banner-wrapper {
+  max-width: 1440px;
+  padding: 0 50px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content h3 {
+  font-size: 3rem;
+  color: #0b0223;
+  font-weight: 600;
+}
+
+.banner-img img {
+  width: 100%;
+}
