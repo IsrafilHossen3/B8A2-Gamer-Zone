@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* common shared styles */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,29 @@
 
 body {
   font-family: "Work Sans", sans-serif;
+}
+
+.btn {
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #ff42a5, #ff42a5);
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #4ec5f7;
+  color: #fff;
+}
+
+.mr-24 {
+  margin-right: 25px;
 }
 
 /* header */
@@ -24,6 +48,7 @@ nav {
   align-items: center;
   max-width: 1440px;
   padding: 0 30px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -100,6 +125,7 @@ nav {
 .banner-wrapper {
   max-width: 1440px;
   padding: 0 50px;
+  margin: 0 auto;
 }
 
 .banner-container {
@@ -108,10 +134,54 @@ nav {
   align-items: center;
 }
 
+.banner-content {
+  width: 50%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.content-inner {}
+
 .banner-content h3 {
   font-size: 3rem;
   color: #0b0223;
   font-weight: 600;
+}
+
+.banner-title {
+  font-weight: 800;
+  font-size: 5.9rem;
+  background: linear-gradient(to bottom, #f948b2, #8758f1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+
+.banner-features ul {
+  padding-left: 5px;
+ }
+
+.banner-features li {
+  color: #534c64;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  list-style-type: none;
+}
+
+
+.banner-features li i {
+ margin-right: 10px;
+}
+
+.btn-group {
+  margin-top: 40px;
+}
+
+.banner-img {
+  width: 50%;
 }
 
 .banner-img img {
