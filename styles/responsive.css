@@ -2,7 +2,7 @@
 @media screen and (max-width: 576px) {
   .navbar,
   .menu-container,
-  .menu {
+  .menu, .we-gamer-container {
     flex-direction: column;
   }
   .navbar,
@@ -25,6 +25,16 @@
   }
   .banner-img {
     width: 100%;
+  }
+  .we-gamer-container {
+
+    padding: 0 15px;
+  }
+  .we-gamer-img-container, .we-gamer-content {
+    width: 100%;
+  }
+  .we-gamer-content {
+    text-align: center;
   }
 }
 
